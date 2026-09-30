@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Ассистент</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <p>{{ reply }}</p>
+        <h1>ИИ Ассистент</h1>
+        <div>
+            <textarea readonly rows="12" cols="45" style="resize: none;">{{ output_text if output_text else history | join('\n') }}</textarea>
+        </div>
+        <form method="POST" class="input-form">
+            <input type="text" name="message" placeholder="Введите текст..." autocomplete="off">
+            <div>
+                <button type="submit" name="action" value="send" class="btn btn-send">Отправить</button>
+                <button type="submit" name="action" value="clear" class="btn btn-clear">Очистить историю</button>
+            </div>
+
+        </form>
+    </div>
+
+
+</body>
+</html>

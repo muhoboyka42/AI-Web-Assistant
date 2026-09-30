@@ -1,0 +1,20 @@
+.container {
+    background-color: #dda15e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0.5);
+    width: 350px;
+}
+h1 {
+    text-align: center;
+    color: #748CAB;
+}
+
+body {
+    color: #F0EBD8;
+    background-color: #0D1321;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
