@@ -32,11 +32,11 @@
 
 * **Веб-фреймворк:** `Flask`
 
-* **База данных: ** `SQLite`
+* **База данных:** `SQLite`
 
-* **ИИ-клиент: ** `OpenAI Python SDK (через Groq API)`
+* **ИИ-клиент:** `OpenAI Python SDK (через Groq API)`
 
-* **Фронтенд: ** `HTML5, CSS3, Jinja2`
+* **Фронтенд:** `HTML5, CSS3, Jinja2`
 
 ---
 
